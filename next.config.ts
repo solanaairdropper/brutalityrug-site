@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/brutalityrug-site',
+  assetPrefix: '/brutalityrug-site/',
 };
 
 export default nextConfig;
